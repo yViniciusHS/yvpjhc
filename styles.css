@@ -1,0 +1,576 @@
+* {
+
+    font-family: Tahoma;
+
+    
+
+}
+
+
+
+body {
+
+
+    margin: 0;
+    margin-top: 35px;
+  
+    background-color: white;
+    box-sizing: border-box;
+   
+
+}
+
+
+#container {
+
+
+    margin: auto;
+    width:1080px ;
+    
+
+}
+
+
+#logotop {
+
+display: block;
+margin-top: 20px;
+
+}
+
+
+
+#menua {
+
+    background-color: #1b8e99;
+    width: 980px;
+    height: 45px;
+    color: white;
+    font-size: 12px;    
+    text-align: right;
+    font-family: arial;
+    
+
+
+
+}
+
+
+
+
+
+#menua li {
+
+    display: inline-block;
+    list-style: none;
+    margin-top: 10px;
+   margin-left: 15px;
+    
+    text-align: center;
+    margin-right: 8px;
+   vertical-align: middle;
+   font-size: 12px;
+    
+}
+
+
+#menua li:hover  {
+
+
+    background-color: #92c9ce;
+    color: white;
+
+  
+}
+
+#menua img {
+
+    width: 194px;
+    height: 146px;
+    margin: -80px 930px 0px 15px ;
+
+}
+
+
+
+
+#banner  {
+
+    background-image: url(../img/banner.fw.png);
+    width: 980px;
+    height: 352px;
+    
+
+
+
+
+}
+
+
+
+#menub {
+
+
+    background-color: #660000;
+    width: 980px;
+    height: 45px;
+    color: white;
+    font-size: 12px;
+    margin-top: -12px;
+    margin-bottom: 5px;
+    font-family: Arial;
+    word-spacing: 50px;
+   
+    
+   
+
+}
+
+
+#menub li {
+
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle;
+    text-align: center;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+
+#menub li:hover {
+
+
+    background-color: white;
+    color: #660000;
+    width: 60px;
+    height: 60px;
+    
+    text-align: center;
+
+
+}
+
+
+#LOJAV {
+
+    color: #660000;
+    margin-left: 40px;
+    margin-top: 60px;
+
+}
+
+
+#hr {
+
+    color: #660000;
+    border: 1px solid  #660000;
+    width: 830px;
+    margin: 40px;
+    margin-top: -16px;
+
+}
+
+
+#droneinline {
+
+    width: 122px;
+    height: 72px;
+    margin-left: 860px;
+    margin-top: -104px;
+
+}
+
+
+
+
+
+.tabela {
+
+    width: 300px;
+    height: 376px;
+    border: 1px solid #1b8e99;
+    margin-top: 10px;
+    
+}
+
+.price {
+
+
+    width: 300px;
+    height: 96px;
+    background-color: #1b8e99;
+    border: 1px solid #1b8e99;
+    color: white;
+    margin-top: -96px;
+    font-size: 30px;
+    margin-bottom: 22px;
+   
+
+}
+
+
+
+.priceparcelado {
+
+    color: white;
+    font-size: 13px;
+    margin-top: -75px;
+}
+
+
+        
+
+
+.namedrone {
+
+    width: 290px;
+    height: 25px;
+    background-color: #5fdbe6c9;
+    color: #1b8e99;
+    margin-top: -340px;
+    margin-left: 6px;
+    text-align: center;
+
+}
+
+
+.pricer { 
+    
+    width: 300px;
+    height: 96px;
+    background-color: #660000;
+    border: 1px solid #660000;
+    color: white;
+    margin-top: -96px;
+    font-size: 30px;
+    margin-bottom: 22px;
+}
+
+
+
+
+
+.buydrone {
+
+    width: 56px;
+    height: 52px;
+    background-color: white;
+    margin: 275px 5px 5px 235px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+.ftdrone {
+
+    width: 297px;
+    height: 80px;
+    margin: -330px 5px 5px 3px;
+  
+}
+
+
+.descricaodrone {
+
+    width: 290px;
+    height: 160px;
+    margin: 95px 3px;
+    color: #1b8e99;
+    font-size: 13px;
+    text-align:center;
+
+
+}
+
+
+
+
+
+
+.tabelar {
+
+    width: 300px;
+    height: 376px;
+    border: 1px solid #660000;
+    margin-top: 10px;
+    
+}
+
+
+
+
+.namedroner {
+
+    width: 290px;
+    height: 25px;
+    background-color: #66000062;
+    color: #660000;
+    margin-top: -340px;
+    margin-left: 6px;
+    text-align: center;
+
+}
+
+
+
+
+.ftdroner {
+
+    width: 297px;
+    height: 80px;
+    margin: -330px 5px 5px 3px;
+  
+}
+
+
+.descricaodroner {
+
+    width: 290px;
+    height: 160px;
+    margin: 95px 3px;
+    color: #660000;
+    font-size: 13px;
+    text-align:center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.anuncio {
+
+    display: inline-block;
+    list-style: none;
+   
+}
+
+
+
+#hr2 {
+
+
+    border: solid 8px #444444;
+    width: 910px;
+    margin-top: -50px;
+    margin-left: 40px;
+
+}
+
+
+
+#SERVICOS {
+
+
+    color: #1b8e99;
+    font: arial;
+    margin-left: 40px;
+    margin-top: 60px;
+    
+
+}
+
+#hr3 {
+
+    border: 1px solid #1b8e99;
+    width: 830px;
+    margin: 40px;
+    margin-top: -16px;
+    margin-left: 0px;
+    
+
+}
+
+
+#droneinline2 {
+
+
+    width: 122px;
+    height: 72px;
+    margin-left: 820px;
+    margin-top: -120px;    
+   
+
+}
+
+
+
+
+.services ul {
+
+
+    list-style: none;
+   
+}
+
+
+.services li {
+
+    display: inline-flex;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    margin-left: -40px;
+    margin-right: 40px;
+
+}
+
+
+
+    .servicestab {
+
+    width: 300px;
+    height: 360px;
+    color: #1b8e99;
+    border: 1px solid #1b8e99;
+    border-bottom: 10px solid #1b8e99;
+    text-align: center;
+    margin-bottom: 30px;
+   
+
+    }
+
+    .servicestabr {
+
+
+        width: 300px;
+        height: 360px;
+        color: #660000 ;
+        border: 1px solid #660000;
+        border-bottom: 10px solid #660000;
+        text-align: center;
+        margin-bottom: 30px;
+
+
+    }
+
+
+        #psv {
+
+        
+        font-size: 13px;
+        margin-top: 0;
+        font-style:normal;
+        font-weight: 200;
+        font-family: Tahoma;
+        text-align: start;
+        margin-left: 5px;
+        margin-right: 5px;
+
+        }   
+
+
+        h4 {
+
+            text-align: left;
+            margin-left: 5px;
+            margin-top: -4px;
+            font-size: 17px;
+            font-family: tahoma;
+        }
+
+
+
+
+
+
+
+        #dfimA {
+
+    margin-bottom: -49px;
+
+
+}
+
+
+        #dfimB {
+
+    margin-left: 280px;
+    margin-bottom: -49px;
+
+}
+
+
+        #dfimC {
+
+
+    margin-left: 670px;
+    margin-bottom: 5px;
+            
+}
+
+
+
+
+
+#fimdesite {
+
+    width: 980px;
+    height: 96px;
+    background-color: #1b8e99;
+    border-bottom: 26px solid #660000;
+    margin-top: -10px;
+
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+                        
+    background-position: left center;
+
+    background-position-x: 25px;
+
+    
+
+    
+
+ 
+}
+
+
+
+#profe {
+
+width: 112px;
+height: 213px;
+margin-left: 860px;
+margin-top: -95px;
+
+
+}
+
+     
+
+h6 {
+
+    color: white;
+margin-left: 800px;
+margin-top: -20px;
+border: solid color black;
+font-family: Tahoma;
+font-size: 14px;
+
+
+
+}
+
+
+
+#textoend {
+
+    width: 580px;
+    height: 60px;
+    color: white;
+    font-family: Tahoma;
+    font-size: 14px;
+    margin-left: 250px;
+    margin-top: -130px;
+
+}
